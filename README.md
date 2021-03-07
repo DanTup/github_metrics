@@ -86,7 +86,7 @@ metadata:
   namespace: monitoring
 spec:
   endpoints:
-    - interval: 5m
+    - interval: 1h
       port: metrics
       path: /metrics
   namespaceSelector:
