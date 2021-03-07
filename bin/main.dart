@@ -102,5 +102,5 @@ void _writeMetric(
   final labelString = labels != null
       ? '{${labels.keys.map((label) => "$label='${labels[label]}'").join(', ')}}'
       : '';
-  return buffer.writeln('$name$labelString: $value');
+  return buffer.writeln('$name$labelString $value');
 }
