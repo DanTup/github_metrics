@@ -1,0 +1,20 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "github_metrics",
+			"request": "launch",
+			"type": "dart",
+			"args": [
+				"--repo=Dart-Code/Dart-Code",
+				"--label-prefix=awaiting info",
+				"--label-prefix=blocked",
+				"--label-prefix=upstream",
+				"--label-prefix=is enhancement",
+				"--label-prefix=is bug",
+				"--label-prefix=is testing",
+				"--max-issue-pages=20"
+			]
+		}
+	]
+}
